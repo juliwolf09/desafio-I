@@ -1,0 +1,37 @@
+.container {
+    background-color: whitesmoke;
+    padding-top: 0;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 500px;
+    border-radius: 5px;
+    border: 2px solid lightgrey;
+    width: auto; 
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: center;
+}
+.button-voltar {
+    display:flex;
+    width: 100%;
+    justify-content: right;
+    }
+
+.button-voltar button {
+    color:black; 
+    background-color: gray;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-right: 50px;  
+}
+
+footer {
+    text-align: center;
+}

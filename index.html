@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Controle de estacionamento</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1> CONTROLE DE ESTACIONAMENTO</h1>
+    </header>
+   
+    <div class="container">
+        <form id="cadastro">
+            <h3> Cadastrar reserva de vaga</h3>
+
+            <label for="placa">Placa do veículo:</label>
+            <input type="text" id="placa" name="placa" required>
+
+            <label for="name">Nome do propretário:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="numeroApto">Número do apartamento:</label>
+            <input type="text" id="numeroApto" name="numeroApto" required>
+
+            <label for="blocoApto">Bloco do apartamento:</label>
+            <input type="text" id="blocoApto" name="blocoApto" required>
+
+            <label for="modeloVeiculo">Modelo do veículo:</label>
+            <input type="text" id="modeloVeiculo" name="modeloVeiculo" required>
+
+            <label for="cor">Cor do veículo:</label>
+            <input type="text" id="cor" name="cor" required>
+            
+            <label for="numeroVaga">Número da vaga do estacionamento:</label>
+            <input type="text" id="numeroVaga" name="numeroVaga" required>
+        
+            <div class="button-cadastrar">
+                <button type="submit" onclick="cadastrar()">Cadastrar</button>
+            </div>
+        </form>
+
+        <div class="button-listar">
+            <button type="button" onclick= "location.href='listarvagascadastradas.html'"> Listar vagas cadastradas </button> 
+            <button type="button" onclick= "location.href='listarvagasdisponiveis.html'"> Listar vagas disponíveis</button>
+        </div>
+    </div>
+    <script src="script.js"></script>   
+</body>
+<footer>
+    <p>&copy; 2024 Controle de estacionamento. Todos os direitos reservados.</p>
+</footer>
+</html>
